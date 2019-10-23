@@ -8,3 +8,6 @@ Requirements: pip install win32gui uiautomation
 To run: python autotimer.py in cmd/terminal
 
 open activities.json file to check your usage 
+
+Screenshot:
+![alt text](https://raw.githubusercontent.com/manojpawarsj12/Pyapplicationtracker/master/Screenshot%20(21).png)
