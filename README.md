@@ -1,1 +1,10 @@
 # Pyapplicationtracker
+
+An application which will track user time used on Aplications 
+Note that this program will work only on linux and windows 
+
+Requirements: pip install win32gui uiautomation
+
+To run: python autotimer.py in cmd/terminal
+
+open activities.json file to check your usage 
