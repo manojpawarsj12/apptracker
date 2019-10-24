@@ -18,3 +18,5 @@ python status.py in cmd/terminal
 
 
 ![alt text](https://raw.githubusercontent.com/manojpawarsj12/Pyapplicationtracker/master/Screenshot%20(26).png)
+
+Credits : @rupansh
