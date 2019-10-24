@@ -18,7 +18,7 @@ for i in e:
         tot=tot+sed
     d.append(sed)   
 kek=time.strftime("%d,%H:%M:%S", time.gmtime(tot))
-kek="Time used :"+kek
+kek="TotalTime used :"+kek
 fig = go.Figure(data=[go.Pie(labels=b,values=d,hole=.4)])
 fig.update_traces(hoverinfo='label+percent+name', textinfo='value', textfont_size=20,
                   marker=dict( line=dict(color='#000000', width=2)))
