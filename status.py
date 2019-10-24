@@ -4,7 +4,6 @@ import time
 import json
 b=[]
 d=[]
-f=[]
 with open('activities.json','r') as jsonfile:
     a=json.load(jsonfile)
 e=a['activities']
