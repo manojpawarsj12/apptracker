@@ -19,4 +19,8 @@ python status.py in cmd/terminal
 
 ![alt text](https://raw.githubusercontent.com/manojpawarsj12/Pyapplicationtracker/master/Screenshot%20(26).png)
 
+
+You can add autotimer.py at startup using this guide
+https://stackoverflow.com/questions/4438020/how-to-start-a-python-file-while-windows-starts
+
 Credits : @rupansh
