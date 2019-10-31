@@ -9,7 +9,7 @@ if sys.platform in ['Windows', 'win32', 'cygwin']:
     import win32gui
     import uiautomation as auto
 elif sys.platform in ['linux', 'linux2']:
-        import linux as l
+    import linux as l
 
 active_window_name = ""
 activity_name = ""
@@ -47,6 +47,7 @@ def get_chrome_url():
         print(sys.version)
     return _active_window_name
 
+
 try:
     activeList.initialize_me()
 except Exception:
@@ -65,7 +66,6 @@ try:
             if 'Google Chrome' in new_window_name:
                 new_window_name = l.get_chrome_url_x()
 
-        
         if active_window_name != new_window_name:
             print(active_window_name)
             activity_name = active_window_name
@@ -92,7 +92,7 @@ try:
             active_window_name = new_window_name
 
         time.sleep(1)
-    
+
 except KeyboardInterrupt:
     with open('activities.json', 'w') as json_file:
         json.dump(activeList.serialize(), json_file, indent=4, sort_keys=True)
