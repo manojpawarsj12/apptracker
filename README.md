@@ -1,5 +1,9 @@
 # Pyapplicationtracker
 
+[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e9f18f5825254349ae16b16f0ea73e0f)](https://www.codacy.com/manual/manojpawarsj12/Pyapplicationtracker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=manojpawarsj12/Pyapplicationtracker&amp;utm_campaign=Badge_Grade)
+
 An application which will track user time used on Aplications 
 Note that this program will work only on linux and windows 
 
