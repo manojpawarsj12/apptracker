@@ -1,6 +1,5 @@
 from __future__ import print_function
 import time
-from os import system
 from activity import *
 import json
 import datetime
