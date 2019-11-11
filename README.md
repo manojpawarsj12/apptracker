@@ -7,9 +7,11 @@
 An application which will track user time used on Aplications 
 Note that this program will work only on linux and windows 
 
-Requirements: pip install win32gui uiautomation plotly dateutil
+Requirements: pip install pwin32 uiautomation plotly python-dateutil 
 
-To run: python autotimer.py in cmd/terminal
+To run: python apptracker.py -h in cmd/terminal to check help
+
+python apptracker.py -start start (to start recording usage activity) 
 
 open activities.json file to check your usage 
 
@@ -18,7 +20,7 @@ Screenshot:
 
 To see in pie chart run
 
-python status.py in cmd/terminal
+python apptacker.py -show show in cmd/terminal
 
 
 ![alt text](https://raw.githubusercontent.com/manojpawarsj12/Pyapplicationtracker/master/Screenshot%20(32).png)
