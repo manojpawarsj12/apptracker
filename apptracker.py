@@ -1,6 +1,5 @@
 from __future__ import print_function
 import time
-from os import system
 from activity import *
 import json
 import datetime
@@ -15,7 +14,6 @@ elif sys.platform in ['linux', 'linux2']:
     import linux as l
 
 b=list()
-e=list()
 def url_to_name(url):
     string_list = url.split('/')
     return string_list[2]
@@ -81,7 +79,7 @@ def show_activity():
         title_text="Your Usage Activitiy",
         annotations=[dict(text=kek, x=0.18, y=0.5, font_size=20, showarrow=False)])
     fig.show()
-    return b, e, kek
+    return b,  kek
 
 
 def record(active_window_name, activity_name, start_time, activeList, first_time):
@@ -149,9 +147,13 @@ def main():
         record(active_window_name, activity_name,
              start_time, activeList, first_time)
     elif args.show:
-        b, e, tot = show_activity()
+        b,  tot = show_activity()
         print(tot," i.e day/hours/minutes/seconds format")
-        print(b)    
+        print("*******APPS**********")
+        j=1
+        for i in b:
+            print("{} : {}".format(j,i))   
+            j+=1
 
 if __name__ == "__main__":
     main()
