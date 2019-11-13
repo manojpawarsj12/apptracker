@@ -1,0 +1,88 @@
+{
+    "activities": [
+        {
+            "name": "python2 apptracker.py -start start", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:42", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 7, 
+                    "start_time": "2019-11-13 15:41:35"
+                }, 
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:45", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 1, 
+                    "start_time": "2019-11-13 15:41:44"
+                }, 
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:57", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 2, 
+                    "start_time": "2019-11-13 15:41:55"
+                }
+            ]
+        }, 
+        {
+            "name": "Mozilla Firefox", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:44", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 2, 
+                    "start_time": "2019-11-13 15:41:42"
+                }, 
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:49", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 4, 
+                    "start_time": "2019-11-13 15:41:45"
+                }, 
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:42:19", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 21, 
+                    "start_time": "2019-11-13 15:41:57"
+                }
+            ]
+        }, 
+        {
+            "name": "Oracle VM VirtualBox Manager", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:53", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 3, 
+                    "start_time": "2019-11-13 15:41:49"
+                }
+            ]
+        }, 
+        {
+            "name": "Oracle VM VirtualBox", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:41:55", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 2, 
+                    "start_time": "2019-11-13 15:41:53"
+                }
+            ]
+        }
+    ]
+}
