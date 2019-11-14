@@ -19,6 +19,6 @@ install:
   - cmd: conda install -y pyzmq tornado jupyter_client nbformat ipykernel pip nodejs nose
   # not using `conda install -y` on nbconvent package because there is
   # currently a bug with the version that the anaconda installs, so we will just install it with pip
-  - cmd: pip install nbconvert
+  - cmd: pip install -r requirements.txt
   - cmd: python setup.py build
   - cmd: pip install .
