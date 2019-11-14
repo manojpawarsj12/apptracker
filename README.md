@@ -1,31 +1,25 @@
-# Pyapplicationtracker
+An application which will track user time used on Aplications
+Note that this program will work only on windows
 
-[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e9f18f5825254349ae16b16f0ea73e0f)](https://www.codacy.com/manual/manojpawarsj12/Pyapplicationtracker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=manojpawarsj12/Pyapplicationtracker&amp;utm_campaign=Badge_Grade)
-
-An application which will track user time used on Aplications 
-Note that this program will work only on linux and windows 
-
-Requirements: pip install pywin32 uiautomation plotly python-dateutil 
-
-To run: python apptracker.py -h in cmd/terminal to check help
-
-python apptracker.py -start start (to start recording usage activity) 
-
-open activities.json file to check your usage 
-
-Screenshot:
-![alt text](https://raw.githubusercontent.com/manojpawarsj12/Pyapplicationtracker/master/Screenshot%20(21).png)
+apptracker -start start (to start recording usage activity)
 
 To see in pie chart run
 
-python apptacker.py -show show in cmd/terminal
+apptacker-show show in cmd/terminal
 
+To clear your usage activity
 
-![alt text](https://raw.githubusercontent.com/manojpawarsj12/Pyapplicationtracker/master/Screenshot%20(32).png)
+apptracker -clean clean
 
-You can add autotimer.py at startup using this guide
-https://stackoverflow.com/questions/4438020/how-to-start-a-python-file-while-windows-starts
+apptracker -h
+usage: apptracker [-h][-start start] [-show SHOW][-clean clean]
 
-Credits : @rupansh
+optional arguments:
+
+-h, --help show this help message and exit
+
+-start START start recording your usage activity
+
+-show SHOW show your usgae in pie chart
+
+-clean CLEAN clear your usage activity

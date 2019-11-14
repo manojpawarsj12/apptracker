@@ -1,4 +1,0 @@
-
-uiautomation 
-plotly 
-python-dateutil
