@@ -1,5 +1,6 @@
 
-[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)
+[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)  [![PyPI version](https://badge.fury.io/py/apptracker.svg)](https://badge.fury.io/py/apptracker)  [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)  
+
 
 An application which will track user time used on Aplications
 Note that this program will work only on windows
