@@ -1,0 +1,4 @@
+python-dateutil
+plotly 
+pywin32
+uiautomation
