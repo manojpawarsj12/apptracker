@@ -9,7 +9,7 @@ import argparse
 if sys.platform in ['Windows', 'win32', 'cygwin']:
     import win32gui
     import uiautomation as auto
- print("commands: \napptracker -show show \napptracker -start start\napptracker -clean clean")
+print("commands: \napptracker -show show \napptracker -start start\napptracker -clean clean")
 
 b = list()
 
@@ -268,5 +268,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print("commands: \napptracker -show show \napptracker -start start\napptracker -clean clean")
     main()
