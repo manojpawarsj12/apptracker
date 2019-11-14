@@ -1,4 +1,4 @@
-pwin32 
+pywin32 
 uiautomation 
 plotly 
 python-dateutil
