@@ -1,1 +1,12 @@
-
+language: python
+python:
+  - "3.6"
+os: windows
+before_install:
+        - choco install python3
+        - export PATH="/c/Python37:/c/Python37/Scripts:$PATH"
+        - python -m pip install --upgrade pip wheel
+install:
+  - pip install -r requirements.txt
+script:
+  - python setup.py 
