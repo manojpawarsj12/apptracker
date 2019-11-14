@@ -1,3 +1,7 @@
+#Apptracker
+
+[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)
+
 An application which will track user time used on Aplications
 Note that this program will work only on windows
 
