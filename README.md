@@ -8,6 +8,14 @@
 An application which will track user time used on Aplications
 Note that this program will work only on windows
 
+To install :
+
+-  pip install apptracker 
+
+in terminal
+
+or else clone/download and run setup.py install
+
 apptracker -start start (to start recording usage activity)
 
 To see in pie chart run
