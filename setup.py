@@ -11,7 +11,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 setup(
     name='apptracker',
-    version='0.0.5',
+    version='0.0.6',
     description=long_description,
     url='https://github.com/manojpawarsj12/apptracker',
     author='Manoj Pawar SJ',
@@ -31,7 +31,7 @@ setup(
     data_files=['apptracker/activities.json'],
     install_requires=['python-dateutil',
                       'plotly', "pywin32", 'uiautomation'],
-    platform=['Windows',"win32"],
+    
     packages=['apptracker'],
     zip_safe=False,
     project_urls={  # Optional
