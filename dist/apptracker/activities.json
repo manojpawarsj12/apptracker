@@ -1,0 +1,64 @@
+{
+    "activities": [
+        {
+            "name": "./apptracker -start start", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:44:47", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 1, 
+                    "start_time": "2019-11-13 15:44:46"
+                }
+            ]
+        }, 
+        {
+            "name": "Mozilla Firefox", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:44:55", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 7, 
+                    "start_time": "2019-11-13 15:44:47"
+                }, 
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:45:00", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 1, 
+                    "start_time": "2019-11-13 15:44:59"
+                }
+            ]
+        }, 
+        {
+            "name": "Oracle VM VirtualBox Manager", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:44:57", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 2, 
+                    "start_time": "2019-11-13 15:44:55"
+                }
+            ]
+        }, 
+        {
+            "name": "Oracle VM VirtualBox", 
+            "time_entries": [
+                {
+                    "days": 0, 
+                    "end_time": "2019-11-13 15:44:59", 
+                    "hours": 0, 
+                    "minutes": 0, 
+                    "seconds": 2, 
+                    "start_time": "2019-11-13 15:44:57"
+                }
+            ]
+        }
+    ]
+}
