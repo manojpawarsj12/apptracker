@@ -1,0 +1,64 @@
+{
+    "activities": [
+        {
+            "name": "setup.py - apptracker - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2025-03-20 13:24:21",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2025-03-20 13:24:17"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2025-03-20 13:24:31",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2025-03-20 13:24:28"
+                }
+            ]
+        },
+        {
+            "name": "AutoTimer/autotimer.py at master \u00b7 KalleHallden/AutoTimer - Brave",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2025-03-20 13:24:24",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2025-03-20 13:24:21"
+                }
+            ]
+        },
+        {
+            "name": "Unknown",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2025-03-20 13:24:26",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2025-03-20 13:24:24"
+                }
+            ]
+        },
+        {
+            "name": "Welcome - fds - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2025-03-20 13:24:28",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2025-03-20 13:24:26"
+                }
+            ]
+        }
+    ]
+}

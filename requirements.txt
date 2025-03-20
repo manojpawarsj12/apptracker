@@ -1,4 +1,8 @@
+argparse
 python-dateutil
-plotly 
-pywin32
-uiautomation
+plotext==5.3.2
+
+pywin32; sys_platform == 'win32'
+uiautomation; sys_platform == 'win32'
+
+pyobjc-framework-Cocoa; sys_platform == 'darwin'  # Provides AppKit and Foundation
