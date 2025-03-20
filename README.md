@@ -1,5 +1,10 @@
 [![Downloads](https://pepy.tech/badge/apptracker)](https://pepy.tech/project/apptracker)
-[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)  [![PyPI version](https://badge.fury.io/py/apptracker.svg)](https://badge.fury.io/py/apptracker)  [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![HitCount](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker.svg)](http://hits.dwyl.io/manojpawarsj12/Pyapplicationtracker)
+[![PyPI version](https://badge.fury.io/py/apptracker.svg)](https://badge.fury.io/py/apptracker)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
+# AppTracker
+
 AppTracker is a Python application designed to track and visualize application usage over time. It records the active applications and their usage duration, allowing users to analyze their activity patterns through interactive visualizations.
 
 ## Features
@@ -11,38 +16,63 @@ AppTracker is a Python application designed to track and visualize application u
 
 ## Installation
 
+### Cloning the Repository
+
 1. Clone the repository:
-   ```
-   git clone <repository-url>
+   ```bash
+   git clone https://github.com/manojpawarsj12/apptracker
    cd apptracker
    ```
 
-2. Install the required dependencies:
-   ```
+### Creating a Virtual Environment
+
+2. Create and activate a virtual environment:
+   - On macOS/Linux:
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+### Installing Dependencies
+
+3. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage
 
-To start tracking your application usage, run the following command:
-```
-python apptracker/main.py -start
-```
+Use the following commands to operate AppTracker:
 
-To view your application usage in a pie chart, use:
-```
-python apptracker/main.py -show
-```
+- **Start Tracking**:
+  Begin tracking your application usage.
+  ```bash
+  python -m apptracker.main -start
+  ```
 
-To clear your recorded usage data, execute:
-```
-python apptracker/main.py -clean
-```
+- **Show Visualizations**:
+  View your application usage in a pie chart.
+  ```bash
+  python -m apptracker.main -show
+  ```
+
+- **Clear Recorded Data**:
+  Clear your recorded usage data.
+  ```bash
+  python -m apptracker.main -clean
+  ```
 
 ## Configuration
 
-Configuration settings can be adjusted in `apptracker/config/settings.py`. This includes default time ranges for visualizations and other application-specific settings.
+You can adjust configuration settings in `apptracker/config/settings.py`. This includes default time ranges for visualizations and other application-specific settings.
+
+
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

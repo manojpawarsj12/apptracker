@@ -32,15 +32,17 @@ setup(
     ],
     include_package_data=True,
     keywords='application tracker digitalwellbeing website tracker productivity',
-    data_files=['apptracker/activities.json'],
+    package_data={'apptracker': ['*.json']},  # Instead of data_files for better package compatibility
     install_requires=[
+        'argparse',
         'python-dateutil',
-        'plotly',
-        'pywin32; platform_system=="Windows"',
-        'uiautomation; platform_system=="Windows"',
-        'pyobjc; platform_system=="Darwin"',
-        'psutil; platform_system=="Linux"',
+        'plotext==5.3.2',
     ],
+    extras_require={
+        'windows': ['pywin32', 'uiautomation'],
+        'macos': ['pyobjc-framework-Cocoa'],
+        'linux': ['psutil'],
+    },
     packages=find_packages(),
     zip_safe=False,
     project_urls={
